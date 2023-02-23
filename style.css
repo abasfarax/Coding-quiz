@@ -1,0 +1,254 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+  }
+  
+  main{
+   padding: 0px 20px 0px 20px;
+  }
+  
+  header {
+    
+      padding: 0px 50px 0px 50px;
+      text-align: center;
+      font-size: 25px;
+  }
+  
+  /*Start Page Css starts*/
+  
+  p {
+    padding:15px 0px 20px 0px;
+    width: 90%;
+    text-align: center;
+    margin: auto;
+    font-size: 25px;
+  }
+  
+  img{
+    width: 30%;
+    object-fit: contain;
+    display: block;
+    padding: 5px;
+    margin: auto;
+  }
+  
+  .start-page-buttons{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+  
+  }
+  
+  #start-button {
+    cursor: pointer;
+    padding: 5px 10px;
+    margin: 0px 5px 0px 0px ;
+    border-radius: 15px;
+    background-color: blue;
+    color: white;
+    text-align: center;
+  
+  }
+  
+  #hs-button {
+    cursor: pointer;
+    padding: 5px 10px;
+    margin: 0px 0px 0px 5px ;
+    border-radius: 15px;
+    background-color: blue;
+    color: white;
+    text-align: center;
+  
+  }
+  /*Start Page Css ends*/
+  
+  /*Quiz Page Css starts*/
+  #quiz-page {
+  
+    padding-top:50px;
+    
+  }
+  
+  #timer {
+    display: block;
+    width:100%;
+    text-align:center;
+    font-size: 30px;
+  }
+  
+  #question {
+    margin: 0;
+    text-align: center;
+  }
+  
+  .choices {
+    width: 50%;
+    margin: auto;
+    padding: 10px 0px;
+  }
+  
+  #answer1, #answer2, #answer3, #answer4 {
+    display: block;
+    margin: 10px 0px;
+    padding: 2px 10px;
+    cursor: pointer;
+    border-radius: 15px;
+    background-color: blue;
+    color: white;
+    text-align: center;
+  }
+  
+  
+  /*Quiz Page Css ends*/
+  
+  /*Results Page Css starts */
+  
+  #results-page h1 {
+    text-align: center;
+    font-size: 50px;
+    padding: 30px 0px 10px 0px;
+  }
+  
+  #results-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    margin: auto;
+    padding: 30px;
+  }
+  
+  #results-page span {
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  font-size: 100px;
+  }
+  
+  #results-page img {
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .form-container {
+    display: flex;
+    justify-content: center;
+  }
+  
+  #submit-button {
+    margin-left: 5px;
+     cursor: pointer;
+    border-radius: 15px;
+    background-color: blue;
+    color: white;
+    text-align: center;
+  
+  }
+  /*Results Page Css ends */
+  
+  
+  /*High Scores Page starts*/
+  #highscores-page {
+    
+    padding: 20px;
+  }
+  
+  #highscores-page h1 {
+    text-align: center;
+    font-size: 50px;
+  }
+  
+  #scores-list {
+    list-style-type: none;
+    padding: 20px 10px;
+  }
+  
+  #home-button {
+    margin-right: 1px;
+     cursor: pointer;
+    border-radius: 15px;
+    background-color: blue;
+    color: white;
+    text-align: center;
+  
+  }
+  
+  #clear-button {
+    margin-left: 1px;
+     cursor: pointer;
+    border-radius: 15px;
+    background-color: blue;
+    color: white;
+    text-align: center;
+  
+  }
+  
+  .hs-page-buttons {
+  display: flex;
+  justify-content: center;
+  }
+  /*High Scores Page ends*/
+  
+  footer {
+    text-align: center;
+    padding-top: 20px;
+    font-size: 10px;
+  }
+  
+  
+  /*MEDIA SCREEN */
+  
+   /*  Tablets (iPads) */
+   @media screen and (max-width: 1024px) {
+    
+  
+  
+  }
+  
+  
+  /* Large Phones (iPhone 14 Pro Max)  */
+  @media screen and (max-width: 430px) {
+   
+    header {
+      font-size: 15px;
+      padding: 0px;
+      margin: 0px;
+    }
+  
+    p {
+      padding-top:5px;
+      text-align: center;
+      margin: auto;
+      font-size: 20px;
+    }
+    
+    img{
+      width: 50%;
+      object-fit: contain;
+      display: block;
+      padding: 5px;
+      margin: auto;
+    }
+    
+  
+    
+    #question {
+      margin: 0;
+      text-align: center;
+      font-size: 20px;
+    }
+    
+    .choices {
+      width: 100%;
+      margin: auto;
+      padding: 10px 0px;
+    }
+  
+    #scores-list li {
+      font-size: 25px;
+    }
+    
+  
+  }
+  
